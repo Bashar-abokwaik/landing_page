@@ -1,0 +1,66 @@
+.about {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  box-sizing: border-box;
+  padding: 0;
+}
+
+.about .about-content {
+  width: 50%;
+  padding: 50px;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+
+.about .about-content h2 {
+  font-size: 84px;
+  font-weight: 400;
+  font-style: italic;
+  color: #f9ef23;
+  margin-bottom: 20px;
+}
+
+.about .about-content p {
+  font-size: 21px;
+  font-weight: 100;
+  font-family: sans-serif !important;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.about .about-content .link {
+  text-decoration: underline;
+  cursor: pointer;
+  color: #f9ef23;
+  font-weight: lighter;
+}
+
+.about .images {
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  align-items: flex-start;
+  padding: 50px;
+  box-sizing: border-box;
+}
+
+.about .img1 img,
+.about .img2 img {
+  width: 280px;
+  height: 450px;
+  object-fit: cover;
+}
+.about .img1 {
+  margin-top: 60px;
+}
+
+.about .img2 {
+  margin-top: 200px;
+}
