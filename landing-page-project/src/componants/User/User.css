@@ -8,14 +8,23 @@
   position: relative;
   box-sizing: border-box;
   margin-bottom: 20px;
+  transition: all 0.5s ease;
+}
+.user:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);;
 }
 .user .user-img-container {
   width: 100%;
-  height: 400px;
+  height: 100%;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
   margin: 40px 0;
+  transition: all 0.5s ease;
+}
+.user .user-img-container:hover {
+  opacity: 0.5;
 }
 .user .user-img-container img {
   width: 100%;
@@ -32,13 +41,24 @@
   box-sizing: border-box;
   padding: 20px;
   position: absolute;
-  bottom: 0;
+  bottom: 40px;
   background-color: #f9ef23;
   color: black;
+  border-radius: 6px;
+  animation: fadeIn 0.5s ease-in-out;
 }
-.user .user-info p,span {
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    bottom: 0;
+  }
+  to {
+    opacity: 1;
+    bottom: 40px;
+  }
+}
+.user .user-info p,.user-age {
   font-size: 18px;
   font-weight: 100;
-  font-family: sans-serif !important;
-  margin-bottom: 10px;
+  font-family: sans-serif ;
 }

@@ -9,7 +9,7 @@ const services = [
     {
       img: img1,
       title: "Tour Our Gym",
-      description: "lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      description: "Description for offer 1 lorem ipsum dolor sit amet, consectetur.",
     },
     {
       img: img2,

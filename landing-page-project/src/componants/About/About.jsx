@@ -9,7 +9,7 @@ function About() {
     setShowDetails(true);
   };
   return (
-    <section className="about">
+    <section className="about" id = "about">
       <div className="about-content">
         <h2>ABOUT OUR FIT FAMILY</h2>
         <p>

@@ -1,6 +1,6 @@
 import heroImg from "../../assets/Bright Yellow and Black Photographic Fitness Service Website.png";
 import "./HeroSection.css";
-function HeroSection() {
+function HeroSection() { 
   const style = {
     backgroundImage: `url(${heroImg})`,
     backgroundSize: "cover",
@@ -8,12 +8,14 @@ function HeroSection() {
     height: "780px",
   };
   return (
-    <div style={style} className="hero-section">
+    <div style={style} className="hero-section" id="hero">
       <p>
-        BE YOUR <span>BEST</span>
+        BE YOUR <span className="spanBest">BEST</span>
       </p>
+      
       <button className="btn">Join Today</button>
     </div>
+  
   );
 }
 

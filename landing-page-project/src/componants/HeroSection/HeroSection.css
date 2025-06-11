@@ -6,20 +6,23 @@
     text-align: center;
     padding: 50px 20px;
 }
+
 .hero-section p {
     font-size: 140px;
     font-weight: 400;
-    font-style:italic;
+    font-style: italic;
     margin-bottom: 20px;
     color: white;
 }
-.hero-section span{
+
+.hero-section .spanBest {
     font-size: 140px;
     font-weight: 400;
     font-style: italic;
     color: #f9ef23;
     margin-bottom: 20px;
 }
+
 .hero-section .btn {
     background-color: #f9ef23;
     color: black;
@@ -31,6 +34,7 @@
     cursor: pointer;
     transition: background-color 0.3s ease;
 }
+
 .hero-section .btn:hover {
     background-color: white;
     color: black;

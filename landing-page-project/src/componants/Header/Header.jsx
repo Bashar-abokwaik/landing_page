@@ -11,7 +11,8 @@ function Header() {
       <nav className="nav">
         <ul className="lest">
           <li>
-            <a href="#home">{"Home".toUpperCase()}</a>
+          
+            <a href="#hero">{"Home".toUpperCase()}</a>
           </li>
           <li>
             <a href="#about">{"About Us".toUpperCase()}</a>
