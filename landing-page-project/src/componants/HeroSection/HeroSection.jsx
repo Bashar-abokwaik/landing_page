@@ -1,6 +1,17 @@
+import { useState } from "react";
 import heroImg from "../../assets/Bright Yellow and Black Photographic Fitness Service Website.png";
 import "./HeroSection.css";
-function HeroSection() { 
+import Popup from "../Popup/Popup";
+function HeroSection() {
+  const [btn, setBtn] = useState(false);
+  function handleClickBtn() {
+    document.body.style.overflow = 'hidden';
+    setBtn(true)
+  }
+  function handleCancleBtn() {
+    document.body.style.overflow = 'auto';
+    setBtn(false)
+  };
   const style = {
     backgroundImage: `url(${heroImg})`,
     backgroundSize: "cover",
@@ -12,10 +23,10 @@ function HeroSection() {
       <p>
         BE YOUR <span className="spanBest">BEST</span>
       </p>
-      
-      <button className="btn">Join Today</button>
+      <button onClick={handleClickBtn} className="btn">Join Today</button>
+      {btn ? <Popup handleCancleBtn={handleCancleBtn} /> : null}
     </div>
-  
+
   );
 }
 
