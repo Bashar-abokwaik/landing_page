@@ -68,3 +68,14 @@
     top: 30%;
     left: 50px;
 }
+@media (max-width: 800px) {
+    .services-section .services{
+        flex-direction: column;
+    }
+    .user-section .users{
+        flex-direction: column;
+    }
+    .contactUs-section .image-and-content h2{
+        font-size: 60px;
+    }
+}

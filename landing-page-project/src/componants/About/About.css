@@ -69,4 +69,12 @@
 .about .img2 {
   margin-top: 240px;
 }
+@media (max-width: 800px) {
+  .about .img1,.img2{
+    display: none;
+  }
+  .about .about-content{
+    width: 100%;
+  }
+}
 

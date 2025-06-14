@@ -15,12 +15,14 @@
     background-color: #f9f9f9;
     width: 90%;
     max-width: 600px;
+    height: 100vh;
     padding: 30px;
     border-radius: 12px;
     box-shadow: 0 0 25px rgba(0, 0, 0, 0.3);
     position: relative;
     z-index: 99;
     animation: fadeIn 0.3s ease-in-out;
+    overflow-y: scroll;
 }
 
 @keyframes fadeIn {
@@ -43,9 +45,9 @@
 }
 
 .popup p {
-    font-size: 16px;
-    color: #555;
-    text-align: center;
+    font-size: 14px;
+    color: #333;
+    text-align: left;
     line-height: 1.5;
     margin-bottom: 25px;
 }
