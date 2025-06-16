@@ -12,7 +12,7 @@ function Header() {
         <h1 className="heder-titel">{"Astraeus Gym".toUpperCase()}</h1>
       </div>
 
-      <div className={`hamburger ${menuOpen ? "open" : ""}`} onClick={() => setMenuOpen(!menuOpen)}>
+      <div className={`dropLest ${menuOpen ? "open" : ""}`} onClick={() => setMenuOpen(!menuOpen)}>
         <span></span>
         <span></span>
         <span></span>
