@@ -38,6 +38,7 @@
 .user .user-info {
   width: 350px;
   height: 150px;
+  font-weight: 400;
   box-sizing: border-box;
   padding: 20px;
   position: absolute;
@@ -61,4 +62,10 @@
   font-size: 18px;
   font-weight: 100;
   font-family: sans-serif ;
+}
+
+@media screen and (max-width:800px) {
+  .user {
+  width: 95%;
+}
 }

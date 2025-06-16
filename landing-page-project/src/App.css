@@ -78,4 +78,8 @@
     .contactUs-section .image-and-content h2{
         font-size: 60px;
     }
+    .services-section .title h2,
+.user-section .title h2 {
+    font-size: 50px;
+}
 }
